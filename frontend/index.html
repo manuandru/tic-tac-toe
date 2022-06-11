@@ -3,12 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Tic Tac Toe</title>
-    <script src="/socket.io/socket.io.js" defer></script>
-    <script src="/socket.io/socket.io.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <button>Crea Stanza</button>
+    <!-- <button>Crea Stanza</button>
     <h1>Tic Tac Toe</h1>
-    <button>Join Stanza</button>
+    <button>Join Stanza</button> -->
+
+    <h1>Tic Tac Toe</h1>
+    <h2></h2>
+    
+    <div>
+        <button id="b0"></button>
+        <button id="b1"></button>
+        <button id="b2"></button>
+    </div>
+    <div>
+        <button id="b3"></button>
+        <button id="b4"></button>
+        <button id="b5"></button>
+    </div>
+    <div>
+        <button id="b6"></button>
+        <button id="b7"></button>
+        <button id="b8"></button>
+    </div>
+
+    <button id="restart">Restart</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js" defer></script>
 </body>
 </html>
