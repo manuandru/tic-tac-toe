@@ -11,13 +11,11 @@
     "url": "git+https://github.com/manuandru/tic-tac-toe.git"
   },
   "author": "manuandru",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/manuandru/tic-tac-toe/issues"
-  },
-  "homepage": "https://github.com/manuandru/tic-tac-toe#readme",
   "dependencies": {
     "express": "^4.18.1",
     "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
   }
 }
